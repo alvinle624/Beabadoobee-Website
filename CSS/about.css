@@ -1,0 +1,117 @@
+
+* {
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, .6);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.main-nav {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.nav ul {
+    margin: 0;
+    text-align: center;
+}
+
+.nav li {
+    display: inline;
+    padding: 5em;
+}
+
+.nav a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 1em;
+    color: rgba(255, 255, 255, .8);
+}
+
+.nav a:hover {
+    background-color: rgba(0, 0, 0, .4);
+}
+
+.artist-name {
+    text-align: center;
+    font-family: "East Sea Dokdo";
+    font-weight: normal;
+    font-style: normal;
+    font-size: 3.5em;
+    margin: 0;
+    color: rgba(255, 255, 255, .9);
+}
+
+.large-name {
+    font-size: 7.5em;
+}
+
+.main-header {
+    background-color: rgba(0, 0, 0, .2);
+    background-image: url("css-images/Sunflowers.png");
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 20px;
+    min-height: 50px;
+}
+
+.content-section {
+    margin: 1em; 
+    flex: 1;
+}
+
+.container {
+    max-width: 2000px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.content-header {
+    font-family: "Permanent Marker";
+    font-size: 3em;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    color: rgba(0, 0, 0, .7);
+    margin: 0;
+}
+
+.bea-image {
+    margin: 0 15px;
+    width: 300px;
+    height: 300px;
+    float: left;
+}
+
+.main-footer {
+    background-color: rgb(22, 203, 143);
+    color: white;
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+    width: 100%;
+    position: relative;
+}
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer-nav li {
+    padding: 0 .5em;
+}
+
+
